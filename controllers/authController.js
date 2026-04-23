@@ -1,3 +1,4 @@
+// Last reviewed: 2026-04-24
 const User = require("../models/User");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
@@ -78,3 +79,4 @@ const login = async (req, res) => {
 };
 
 module.exports = { register, login };
+

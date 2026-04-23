@@ -1,3 +1,4 @@
+// Last reviewed: 2026-04-24
 const jwt = require("jsonwebtoken");
 
 const protect = (req, res, next) => {
@@ -19,3 +20,4 @@ const protect = (req, res, next) => {
 };
 
 module.exports = protect;
+

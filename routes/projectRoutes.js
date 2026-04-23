@@ -1,3 +1,4 @@
+// Last reviewed: 2026-04-24
 const express = require("express");
 const router = express.Router();
 const protect = require("../middleware/authMiddleware");
@@ -16,3 +17,4 @@ router.put("/:id", updateProject);
 router.delete("/:id", deleteProject);
 
 module.exports = router;
+
